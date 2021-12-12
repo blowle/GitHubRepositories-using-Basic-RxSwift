@@ -14,6 +14,7 @@
 		00AD992C27667D6900E7B72D /* RepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD992B27667D6900E7B72D /* RepositoryListViewController.swift */; };
 		00AD992F27667E1D00E7B72D /* RepositoryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD992E27667E1D00E7B72D /* RepositoryListCell.swift */; };
 		00AD993327667F2700E7B72D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 00AD993227667F2700E7B72D /* SnapKit */; };
+		00AD99362766834400E7B72D /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00AD99352766834300E7B72D /* Repository.swift */; };
 		821738ABD45A113BE2B14B29 /* Pods_GitHubRepository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DDA2F890AF5797EF6563FC2 /* Pods_GitHubRepository.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		00AD991E27667C2700E7B72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00AD992B27667D6900E7B72D /* RepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
 		00AD992E27667E1D00E7B72D /* RepositoryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListCell.swift; sourceTree = "<group>"; };
+		00AD99352766834300E7B72D /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		1AD093B773554CB817D34653 /* Pods-GitHubRepository.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubRepository.debug.xcconfig"; path = "Target Support Files/Pods-GitHubRepository/Pods-GitHubRepository.debug.xcconfig"; sourceTree = "<group>"; };
 		3DDA2F890AF5797EF6563FC2 /* Pods_GitHubRepository.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubRepository.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7545CFD1184C97C0C79D5A63 /* Pods-GitHubRepository.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubRepository.release.xcconfig"; path = "Target Support Files/Pods-GitHubRepository/Pods-GitHubRepository.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				00AD991227667C1B00E7B72D /* SceneDelegate.swift */,
 				00AD992E27667E1D00E7B72D /* RepositoryListCell.swift */,
 				00AD992B27667D6900E7B72D /* RepositoryListViewController.swift */,
+				00AD99352766834300E7B72D /* Repository.swift */,
 				00AD991927667C2700E7B72D /* Assets.xcassets */,
 				00AD991B27667C2700E7B72D /* LaunchScreen.storyboard */,
 				00AD991E27667C2700E7B72D /* Info.plist */,
@@ -214,6 +217,7 @@
 			files = (
 				00AD991127667C1B00E7B72D /* AppDelegate.swift in Sources */,
 				00AD991327667C1B00E7B72D /* SceneDelegate.swift in Sources */,
+				00AD99362766834400E7B72D /* Repository.swift in Sources */,
 				00AD992C27667D6900E7B72D /* RepositoryListViewController.swift in Sources */,
 				00AD992F27667E1D00E7B72D /* RepositoryListCell.swift in Sources */,
 			);
